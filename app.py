@@ -94,13 +94,17 @@ st.markdown(
     .fixed-subtitle {
         position: fixed;
         top: 100px;
-        left: 40%;
+        left: 50%;
         transform: translateX(-50%);
         z-index: 900;
-        text-align: left;
+        text-align: center;
         color: white;
         font-size: 1.5rem;
         font-weight: normal;
+        font-weight: normal;
+        white-space: nowrap;      /* Prevents text from wrapping */
+        overflow: hidden;         /* Optional: hides overflow if too long */
+        text-overflow: ellipsis;  /* Optional: shows "..." if text is too long */
     }
     /* Input box fixed at bottom */
     .stTextInput {
