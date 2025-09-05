@@ -1,6 +1,6 @@
 # 🤖 AI Documents Q&A Assistant
 
-![AI Documents Q&A Assistant Banner](A_digital_graphic_design_banner_features_an_AI_Doc.png)
+![AI Documents Q&A Assistant Banner](https://github.com/satyabharat1207/AI-Document-QA-Assistant/blob/main/banner.png)
 
 A lightweight AI-powered assistant that allows users to upload documents and ask questions, receiving accurate, cited answers.
 
