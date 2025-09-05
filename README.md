@@ -2,7 +2,9 @@
 
 ![AI Documents Q&A Assistant Banner](https://github.com/satyabharat1207/AI-Document-QA-Assistant/blob/main/banner.png)
 
-A lightweight AI-powered assistant that allows users to upload documents and ask questions, receiving accurate, cited answers.
+This project is a lightweight AI Document Q&A Assistant, a Streamlit web app that helps you interact with your documents. Simply upload files like PDFs or DOCX, and the app processes them into a searchable format.
+
+You can then ask questions about the uploaded content and receive accurate, cited answers. The assistant also includes a general chat mode, so you can ask it anything—it's not limited to just your documents.
 
 ---
 
