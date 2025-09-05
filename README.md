@@ -6,7 +6,7 @@ A lightweight AI-powered assistant that allows users to upload documents and ask
 
 ---
 
-## 🚀 Features
+## ✨ Features
 - 📂 Upload and process multiple documents
 - ⚡ Ask questions and get answers from your docs
 - 📝 Summarize documents in one click
@@ -69,6 +69,12 @@ AI-Documents-QA-Assistant/
 └── README.md          # Project documentation
 ```
 
+## 🚀 Roadmap
+
+- 🔍 Add support for more file formats (txt, md, pptx)
+- 🧠 Add RAG with advanced LLMs (OpenAI / Anthropic / Gemini)
+- 🌍 Deploy on Streamlit Cloud or Hugging Face Spaces
+  
 ---
 
 ## 📜 License
