@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Chat history or local files
+chat_history.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db
