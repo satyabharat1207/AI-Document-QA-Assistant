@@ -15,15 +15,14 @@ You can then ask questions about the uploaded content and receive accurate, cite
 - 💬 General chat mode (not limited to docs)
 - 💾 Save & download chat history
 - 🎨 Modern UI with gradient background and styled chat bubbles
-
+- 🐳 Docker-ready for easy deployment on any server
 ---
 
 ## 🛠️ Tech Stack
 - **Backend**: Python  
 - **Libraries**: LangChain, Groq API, Google Generative AI, FAISS (vector DB)  
 - **Frontend**: Streamlit  
-- **Others**: OCR for scanned docs  
-
+- **Others**: OCR for scanned documents, Docker, AWS deployment
 ---
 
 ## ⚙️ Setup Instructions
@@ -59,6 +58,17 @@ copy .env.example .env # Windows
 streamlit run app.py
 ```
 
+### 6. Docker Deployment
+Build Docker image
+```bash
+docker build -t chatbot-image
+```
+Run Docker container
+Build Docker image
+```bash
+docker run -d --name myapp -p 5000:8501 chatbot-image
+```
+Access the app at: http://<your-server-ip>:8501
 ---
 
 ## 📂 Project Structure
@@ -67,6 +77,7 @@ AI-Documents-QA-Assistant/
 ├── app.py             # Main Streamlit app
 ├── requirements.txt   # Dependencies
 ├── .env.example       # API key template
+├── Dockerfile         # Container deployment
 ├── .gitignore         # Ignore sensitive files
 └── README.md          # Project documentation
 ```
@@ -74,8 +85,9 @@ AI-Documents-QA-Assistant/
 ## 🚀 Roadmap
 
 - 🔍 Add support for more file formats (txt, md, pptx)
-- 🧠 Add RAG with advanced LLMs (OpenAI / Anthropic / Gemini)
-- 🌍 Deploy on Streamlit Cloud or Hugging Face Spaces
+- 🧠 Improve RAG integration with advanced LLMs (OpenAI / Anthropic / Gemini)
+- 🌍 Deploy on Streamlit Cloud, AWS, or Hugging Face Spaces
+- 📝 Add user authentication & multi-user support
   
 ---
 
